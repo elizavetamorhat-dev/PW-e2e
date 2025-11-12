@@ -1,6 +1,6 @@
 import {expect, test} from "@playwright/test";
 import { faker } from '@faker-js/faker';
-import dotenv from "dotenv";
+import * as dotenv from "dotenv";
 dotenv.config();
 
 const appUrl = `${process.env.APP_URL}/signin`;
